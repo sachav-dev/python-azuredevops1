@@ -31,4 +31,4 @@ steps:
     artifactFeed: 'raw-coding-example-feed'
 
 - script: |
-     twine upload -r 'raw-coding-example-feed' --config-file $(PYPIRC_PATH) dist/*
+     twine upload -r 'raw-coding-example-feed' --config-file $(PYPIRC_PATH) dist/*.whl
